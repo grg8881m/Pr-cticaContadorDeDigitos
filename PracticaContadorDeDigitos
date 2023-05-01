@@ -16,8 +16,9 @@ public class PracticaContadorDigitos {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int num = 1500;
+        int num = 0;
         
+        if(num>0 && num<9999){
         if(num<10){
             System.out.println("El número tiene 1 Dígito");
         }
@@ -33,6 +34,8 @@ public class PracticaContadorDigitos {
         if(num>=1000 && num <=9999){
             System.out.println("El número tiene 4 Dígitos");
         }
-    }
+    } else {
+            System.out.println("Introduce un número Pósitvo entero entre 1 y 9999");
+        }
     
 }
